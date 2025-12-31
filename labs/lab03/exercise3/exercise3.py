@@ -1,2 +1,3 @@
-def has_adjacent_seats(seats):
-    pass
+def has_adjacent_seats(seats): 
+    for i in range(seats):
+        
