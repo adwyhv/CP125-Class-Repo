@@ -1,7 +1,8 @@
 def compare_prices(store_a, store_b):
-    # TODO: Your code here
-    pass
-
+    comparison= {}
+    for key, value in store_a.items():
+        if key not in store_b:
+            comparison["only_a"]
 
 
 store_a = {"milk": 3.50, "bread": 2.00, "eggs": 5.00, "butter": 4.50}
